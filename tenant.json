@@ -1,0 +1,357 @@
+{
+  "createdDate" : null,
+  "modifiedDate" : "2023-12-15T10:35:37",
+  "version" : 47,
+  "modifiedBy" : 2,
+  "createdBy" : null,
+  "id" : 1,
+  "entityType" : "PUBLIC_LTD",
+  "industryType" : "SUPPLY_CHAIN",
+  "name" : "XYZ",
+  "address" : "Behala, Kolkata",
+  "pinCode" : {
+    "createdDate" : null,
+    "modifiedDate" : null,
+    "version" : 0,
+    "modifiedBy" : null,
+    "createdBy" : null,
+    "id" : 1,
+    "pin" : "700094",
+    "city" : null,
+    "state" : null,
+    "country" : null
+  },
+  "city" : {
+    "createdDate" : null,
+    "modifiedDate" : null,
+    "version" : 0,
+    "modifiedBy" : null,
+    "createdBy" : null,
+    "id" : 1,
+    "cityName" : "kolkata",
+    "state" : null,
+    "country" : null
+  },
+  "state" : {
+    "createdDate" : null,
+    "modifiedDate" : null,
+    "version" : 4,
+    "modifiedBy" : null,
+    "createdBy" : null,
+    "id" : 1,
+    "stateName" : "WEST BENGAL",
+    "country" : null
+  },
+  "country" : {
+    "createdDate" : null,
+    "modifiedDate" : null,
+    "version" : 0,
+    "modifiedBy" : null,
+    "createdBy" : null,
+    "id" : 5,
+    "countryName" : "RUSSIA"
+  },
+  "contactName" : "Sumit Samaddar",
+  "contactNumber" : "9874563210",
+  "email" : "babisumit@gmail.com",
+  "cin" : "4556",
+  "pan" : "456",
+  "transporterId" : null,
+  "logo" : null,
+  "logoPath" : "/tmp/tariff-tales/login-desktop.jpg",
+  "status" : "ACTIVE",
+  "subscriptionType" : null,
+  "tenantGSTS" : [ {
+    "createdDate" : "2023-11-26T16:18:21",
+    "modifiedDate" : "2023-11-26T16:21:30",
+    "version" : 1,
+    "modifiedBy" : 2,
+    "createdBy" : 2,
+    "id" : 1,
+    "no" : "153698745",
+    "address" : "Kolkata2",
+    "pinCode" : {
+      "createdDate" : null,
+      "modifiedDate" : null,
+      "version" : 0,
+      "modifiedBy" : null,
+      "createdBy" : null,
+      "id" : 1,
+      "pin" : "700094",
+      "city" : {
+        "createdDate" : null,
+        "modifiedDate" : "2023-12-12T17:18:17",
+        "version" : 2,
+        "modifiedBy" : 2,
+        "createdBy" : null,
+        "id" : 1,
+        "cityName" : "kolkata",
+        "state" : {
+          "createdDate" : null,
+          "modifiedDate" : "2023-12-13T03:37:41",
+          "version" : 6,
+          "modifiedBy" : 1,
+          "createdBy" : null,
+          "id" : 1,
+          "stateName" : "WEST BENGAL",
+          "country" : {
+            "createdDate" : "2023-09-15T14:32:27",
+            "modifiedDate" : "2023-09-15T14:32:27",
+            "version" : 0,
+            "modifiedBy" : 1,
+            "createdBy" : 1,
+            "id" : 2,
+            "countryName" : "INDIA"
+          }
+        },
+        "country" : {
+          "createdDate" : "2023-09-15T14:32:27",
+          "modifiedDate" : "2023-09-15T14:32:27",
+          "version" : 0,
+          "modifiedBy" : 1,
+          "createdBy" : 1,
+          "id" : 2,
+          "countryName" : "INDIA"
+        }
+      },
+      "state" : {
+        "createdDate" : null,
+        "modifiedDate" : "2023-12-13T03:37:41",
+        "version" : 6,
+        "modifiedBy" : 1,
+        "createdBy" : null,
+        "id" : 1,
+        "stateName" : "WEST BENGAL",
+        "country" : {
+          "createdDate" : "2023-09-15T14:32:27",
+          "modifiedDate" : "2023-09-15T14:32:27",
+          "version" : 0,
+          "modifiedBy" : 1,
+          "createdBy" : 1,
+          "id" : 2,
+          "countryName" : "INDIA"
+        }
+      },
+      "country" : {
+        "createdDate" : "2023-09-15T14:32:27",
+        "modifiedDate" : "2023-09-15T14:32:27",
+        "version" : 0,
+        "modifiedBy" : 1,
+        "createdBy" : 1,
+        "id" : 2,
+        "countryName" : "INDIA"
+      }
+    },
+    "city" : {
+      "createdDate" : null,
+      "modifiedDate" : "2023-12-12T17:18:17",
+      "version" : 2,
+      "modifiedBy" : 2,
+      "createdBy" : null,
+      "id" : 1,
+      "cityName" : "kolkata",
+      "state" : {
+        "createdDate" : null,
+        "modifiedDate" : "2023-12-13T03:37:41",
+        "version" : 6,
+        "modifiedBy" : 1,
+        "createdBy" : null,
+        "id" : 1,
+        "stateName" : "WEST BENGAL",
+        "country" : {
+          "createdDate" : "2023-09-15T14:32:27",
+          "modifiedDate" : "2023-09-15T14:32:27",
+          "version" : 0,
+          "modifiedBy" : 1,
+          "createdBy" : 1,
+          "id" : 2,
+          "countryName" : "INDIA"
+        }
+      },
+      "country" : {
+        "createdDate" : "2023-09-15T14:32:27",
+        "modifiedDate" : "2023-09-15T14:32:27",
+        "version" : 0,
+        "modifiedBy" : 1,
+        "createdBy" : 1,
+        "id" : 2,
+        "countryName" : "INDIA"
+      }
+    },
+    "state" : {
+      "createdDate" : null,
+      "modifiedDate" : "2023-12-13T03:37:41",
+      "version" : 6,
+      "modifiedBy" : 1,
+      "createdBy" : null,
+      "id" : 1,
+      "stateName" : "WEST BENGAL",
+      "country" : {
+        "createdDate" : "2023-09-15T14:32:27",
+        "modifiedDate" : "2023-09-15T14:32:27",
+        "version" : 0,
+        "modifiedBy" : 1,
+        "createdBy" : 1,
+        "id" : 2,
+        "countryName" : "INDIA"
+      }
+    },
+    "country" : {
+      "createdDate" : "2023-09-15T14:32:27",
+      "modifiedDate" : "2023-09-15T14:32:27",
+      "version" : 0,
+      "modifiedBy" : 1,
+      "createdBy" : 1,
+      "id" : 2,
+      "countryName" : "INDIA"
+    },
+    "placeOfService" : "Kolkata2",
+    "status" : "ACTIVE"
+  }, {
+    "createdDate" : "2023-11-26T16:18:21",
+    "modifiedDate" : "2023-11-26T16:21:30",
+    "version" : 1,
+    "modifiedBy" : 2,
+    "createdBy" : 2,
+    "id" : 2,
+    "no" : "153698745878",
+    "address" : "Kolkata3",
+    "pinCode" : {
+      "createdDate" : null,
+      "modifiedDate" : null,
+      "version" : 0,
+      "modifiedBy" : null,
+      "createdBy" : null,
+      "id" : 1,
+      "pin" : "700094",
+      "city" : {
+        "createdDate" : null,
+        "modifiedDate" : "2023-12-12T17:18:17",
+        "version" : 2,
+        "modifiedBy" : 2,
+        "createdBy" : null,
+        "id" : 1,
+        "cityName" : "kolkata",
+        "state" : {
+          "createdDate" : null,
+          "modifiedDate" : "2023-12-13T03:37:41",
+          "version" : 6,
+          "modifiedBy" : 1,
+          "createdBy" : null,
+          "id" : 1,
+          "stateName" : "WEST BENGAL",
+          "country" : {
+            "createdDate" : "2023-09-15T14:32:27",
+            "modifiedDate" : "2023-09-15T14:32:27",
+            "version" : 0,
+            "modifiedBy" : 1,
+            "createdBy" : 1,
+            "id" : 2,
+            "countryName" : "INDIA"
+          }
+        },
+        "country" : {
+          "createdDate" : "2023-09-15T14:32:27",
+          "modifiedDate" : "2023-09-15T14:32:27",
+          "version" : 0,
+          "modifiedBy" : 1,
+          "createdBy" : 1,
+          "id" : 2,
+          "countryName" : "INDIA"
+        }
+      },
+      "state" : {
+        "createdDate" : null,
+        "modifiedDate" : "2023-12-13T03:37:41",
+        "version" : 6,
+        "modifiedBy" : 1,
+        "createdBy" : null,
+        "id" : 1,
+        "stateName" : "WEST BENGAL",
+        "country" : {
+          "createdDate" : "2023-09-15T14:32:27",
+          "modifiedDate" : "2023-09-15T14:32:27",
+          "version" : 0,
+          "modifiedBy" : 1,
+          "createdBy" : 1,
+          "id" : 2,
+          "countryName" : "INDIA"
+        }
+      },
+      "country" : {
+        "createdDate" : "2023-09-15T14:32:27",
+        "modifiedDate" : "2023-09-15T14:32:27",
+        "version" : 0,
+        "modifiedBy" : 1,
+        "createdBy" : 1,
+        "id" : 2,
+        "countryName" : "INDIA"
+      }
+    },
+    "city" : {
+      "createdDate" : null,
+      "modifiedDate" : "2023-12-12T17:18:17",
+      "version" : 2,
+      "modifiedBy" : 2,
+      "createdBy" : null,
+      "id" : 1,
+      "cityName" : "kolkata",
+      "state" : {
+        "createdDate" : null,
+        "modifiedDate" : "2023-12-13T03:37:41",
+        "version" : 6,
+        "modifiedBy" : 1,
+        "createdBy" : null,
+        "id" : 1,
+        "stateName" : "WEST BENGAL",
+        "country" : {
+          "createdDate" : "2023-09-15T14:32:27",
+          "modifiedDate" : "2023-09-15T14:32:27",
+          "version" : 0,
+          "modifiedBy" : 1,
+          "createdBy" : 1,
+          "id" : 2,
+          "countryName" : "INDIA"
+        }
+      },
+      "country" : {
+        "createdDate" : "2023-09-15T14:32:27",
+        "modifiedDate" : "2023-09-15T14:32:27",
+        "version" : 0,
+        "modifiedBy" : 1,
+        "createdBy" : 1,
+        "id" : 2,
+        "countryName" : "INDIA"
+      }
+    },
+    "state" : {
+      "createdDate" : null,
+      "modifiedDate" : "2023-12-13T03:37:41",
+      "version" : 6,
+      "modifiedBy" : 1,
+      "createdBy" : null,
+      "id" : 1,
+      "stateName" : "WEST BENGAL",
+      "country" : {
+        "createdDate" : "2023-09-15T14:32:27",
+        "modifiedDate" : "2023-09-15T14:32:27",
+        "version" : 0,
+        "modifiedBy" : 1,
+        "createdBy" : 1,
+        "id" : 2,
+        "countryName" : "INDIA"
+      }
+    },
+    "country" : {
+      "createdDate" : "2023-09-15T14:32:27",
+      "modifiedDate" : "2023-09-15T14:32:27",
+      "version" : 0,
+      "modifiedBy" : 1,
+      "createdBy" : 1,
+      "id" : 2,
+      "countryName" : "INDIA"
+    },
+    "placeOfService" : "Kolkata3",
+    "status" : "ACTIVE"
+  } ]
+}

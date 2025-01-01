@@ -1,0 +1,53 @@
+.main_accordion.common_accordion_wrap {
+    .accordion-item {
+        border-radius: 12px;
+        border: 1px solid $neutral_2;
+        background: $white;
+        margin-bottom: 20px;
+        .accordion-header{
+            .accordion-button {
+                min-height: 50px;
+                background: transparent;
+                padding: 18px 18px 18px 40px;
+                @include font(500,14px,normal,$neutral_8);
+                box-shadow: none;
+                &::after{
+                    right: auto;
+                    left: 16px;
+                    position: absolute;
+                    background-size: 13px;
+                    background-position: center;
+                }
+                .img{
+                    width: 48px;
+                    height: 48px;
+                    border-radius: 99px;
+                    border: 1px solid $neutral_2;
+                    background: #F9FAFB;
+                }
+                .tag {
+                    padding: 4px 12px;
+                    border-radius: 99px;
+                    background: $primary_1;
+                    @include font(600,13px,normal,$primary_7);
+                    text-transform: uppercase;
+                    &.preferred{
+                        background: $primary_1;
+                        color: $primary_7;
+                    }
+                    &.cheaper{
+                        background: $danger_1;
+                        color: $danger_7;
+                    }
+                    &.faster{
+                        background: $success_1;
+                        color: $success_7;
+                    }
+                }
+            }
+            .right_con{
+                gap: 10px 30px;
+            }
+        }
+    }
+}

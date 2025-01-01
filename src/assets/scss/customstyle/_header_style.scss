@@ -1,0 +1,227 @@
+header{
+    &#page-topbar{
+        border-bottom: 1px solid #E5E7EB !important;
+    }
+    .navbar-brand-box{
+        background: transparent;
+        box-shadow: none;
+        border: 0;
+        padding: 18px 0px 8px 34px !important;
+        width: 228px !important;
+        @media only screen and (max-width: 1100px) {
+            padding: 18px 0px 8px 15px !important;
+            width: 200px !important;
+        }
+        @media only screen and (max-width: 991px) {
+            width: 150px !important;
+            .logo {
+                img{
+                    height: 50px;
+                    max-width: 100%;
+                    height: auto;
+                }
+            }
+        }
+        @media only screen and (max-width: 767px) {
+            width: 110px !important;
+        }
+        @media only screen and (max-width: 420px) {
+            width: 90px !important;
+        }
+    }
+    .header_language_drop{
+        button{
+            border-radius: 74px;
+            border: 1px solid $neutral_2 !important;
+            display: flex;
+            align-items: center;
+            min-width: 180px;
+            padding: 10px 32px 10px 12px;
+            position: relative;
+            i.fas.fa-caret-down {
+                position: absolute;
+                right: 12px;
+                color: $neutral_8;
+                font-size: 20px;
+            }
+            img{
+                width: 28px;
+                height: 28px;
+                border-radius: 100%;
+                margin-right: 10px !important;
+            }
+            p{
+                @include font(600,16px,normal,$neutral_8);
+                margin: 0;
+            }
+        }
+        @media only screen and (max-width: 767px) {
+            button{
+                min-width: auto;
+                width: 40px;
+                padding: 10px;
+                img{
+                    width: 18px;
+                    height: 18px;
+                }
+                p{
+                    font-size: 0;
+                }
+                i{
+                    display: none;
+                }
+            }
+        }
+    }
+    .app-search {
+        input.form-control {
+            border-radius: 74px;
+            border: 1px solid $neutral_2;
+            background: $sh_white;
+            @include font(500,16px,normal,$neutral_5);
+            padding: 10px 10px 10px 47px;
+            height: 50px;
+            width: 278px;
+            @media only screen and (max-width: 1100px) {
+                width: 180px;
+            }
+            &::placeholder{
+                color: $neutral_5;
+            }
+        }
+    }
+    .common_header_btn {
+        border-radius: 74px;
+        border: 1px solid $neutral_2 !important;
+        padding: 0;
+        width: 50px;
+        height: 50px;
+        margin-left: 20px;
+        @media only screen and (max-width: 991px) {
+            margin-left: 12px;
+        }
+        @media only screen and (max-width: 767px) {
+            margin-left: 7px;
+            width: 40px;
+            height: 40px;
+        }
+    }
+    .mobile_search {
+        .input-group input {
+            padding: 10px 0 10px 40px;
+            border-radius: 50px !important;
+            background: $white !important;
+        }
+        .input-group-append {
+            position: absolute;
+            left: 13px;
+            top: 9px;
+            z-index: 9;
+            button{
+                padding: 0;                
+                svg{
+                    width: 17px;
+                    height: 17px;
+                    color: #6264A0;
+                }
+            }
+        }
+        .dropdown-menu {
+            right: 0;
+        }
+    }
+}
+// -------------------------- compact view -------------------------------------------
+body[data-sidebar-size="md"],body[data-sidebar-size="sm"]{
+    header{
+        .navbar-brand-box{
+            width: 228px !important;
+            @media only screen and (max-width: 1100px) {
+                width: 200px !important;
+            }
+            @media only screen and (max-width: 991px) {
+                width: 150px !important;
+            }
+            @media only screen and (max-width: 767px) {
+                width: 110px !important;
+            }
+        }
+    }
+}
+// -------------------------- compact view -------------------------------------------
+// -------------------------- Small view -------------------------------------------
+body[data-sidebar-size=sm] {
+    .vertical-menu #sidebar-menu{
+        > ul {
+            > li{
+                > a{
+                    font-size: 13px;
+                    text-align: center;
+                    svg{
+                        margin: 0 auto 4px;
+                    }
+                }
+                &:hover {
+                    > ul{
+                        top: 0;
+                    }
+                }
+                > ul{
+                    top: 0;
+                }
+            }
+        }
+    }
+    @media only screen and (max-width: 420px) {
+        .vertical-menu{
+            width: 70px !important;
+            #sidebar-menu {
+                > ul {
+                    > li {
+                        > a{
+                            > span{
+                                display: none !important;
+                            }
+                        }
+                        > ul{
+                            top: 0;
+                            left: 70px !important;
+                            width: 150px !important;
+                            a{
+                                width: 100% !important;
+                                display: flex;
+                                align-items: center;
+                                // justify-content: space-between;
+                                word-break: break-all;
+                                span{
+                                    max-width: 100px;
+                                    display: -webkit-box;
+                                    -webkit-line-clamp: 1;
+                                    -webkit-box-orient: vertical;
+                                    overflow: hidden;
+                                    word-break: break-all;
+                                }
+                            }
+                            li {
+                                ul{
+                                    left: 150px !important;
+                                    width: 120px !important;
+                                }
+                            }
+                        }
+                    }
+                }
+                .has-arrow:after{
+                    margin-left: auto;
+                }
+            }
+        }
+    }
+}
+
+#sidebar-menu ul.metismenu > li > a.mm-active {
+    color: var(--bs-sidebar-menu-item-active-color) !important;
+}
+#sidebar-menu ul.metismenu > li > a.mm-active > svg path{
+    fill: var(--bs-sidebar-menu-item-active-color) !important;
+}

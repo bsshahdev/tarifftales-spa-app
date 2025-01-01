@@ -1,0 +1,219 @@
+.instant_rate_wrapper.create_sales_wrapper {
+    @include borderRadius(6px);
+    .main_tab_wrap {
+        button {
+            border-radius: 12px;
+            border: 1px solid $neutral_3;
+            background: $white;
+            @include font($font-weight-normal,14px,normal,$neutral_5);
+            gap: 10px;
+            &.active {
+                background-color: $primary_7;
+                border-color: $primary_7;
+                color: $white;
+                svg path{
+                    fill: $white;
+                }
+            }
+        }
+    }
+    .card-header-tabs {
+        margin: 0;
+        .nav-item .nav-link{
+            @extend .flex-center;
+            @include borderRadius(5px 5px 0 0);
+            &.active {
+                background: $primary_7;
+                color: $white;
+            }
+            @media only screen and (max-width: 767px) {
+                font-size: 12px;
+                padding: 5px 10px !important;
+            }
+        }
+    }
+
+    .create_sales_search_forms {
+        .prof_wrap {
+            .icon {
+                width: 28px;
+                height: 28px;
+                flex: 0 0 28px;
+                img {
+                    max-width: 20px;
+                }
+            }
+        }
+
+        .prof_wrap1 {
+            @include borderRadius(8px);
+            border: 1px solid $neutral_2;
+            position: relative;
+            align-items: center;
+            padding: 5px 16px;
+            cursor: pointer;
+            justify-content: space-between;
+            .con, i {
+                pointer-events: none;
+            }
+            &.error {
+                border-color: red;
+            }
+        }
+        .quantity_drop_wrap {
+            padding: 0;
+            width: 100%;
+            @include borderRadius(12px);
+            background: $white;
+            box-shadow: 0px 7px 29px 0px rgba(100, 100, 111, 0.2);
+            .dropdown-item{
+                padding: 0;
+                .custom-option{
+                    @extend .flex-center;
+                    padding: 9px 16px;
+                    gap: 8px;
+                    border-bottom: 1px solid $neutral_2;
+                    p{
+                        margin: 0;
+                    }
+                }
+            }
+            .quantity_wrap {
+                max-width: 100px;
+                margin-left: auto;
+                display: flex;
+                input::-webkit-outer-spin-button,
+                input::-webkit-inner-spin-button {
+                    -webkit-appearance: none;
+                    margin: 0;
+                }
+                input {
+                    display: block;
+                    width: 100%;
+                    border: 0;
+                    text-align: center;
+                    background: transparent;
+                    @include appearance;
+                    @include font($font-weight-semibold,13px,normal,$neutral_8);
+                }
+                .minus,.plus {
+                    width: 20px;
+                    flex: 0 0 20px;
+                    height: 20px;
+                    background: $primary_7;
+                    @include borderRadius(100%);
+                    text-align: center;
+                    line-height: 18px;
+                    border: 0;
+                    padding: 0;
+                    i{
+                        color: $white;
+                        font-size: 11px;
+                    }
+                }
+            }
+        }
+
+        .quotation_select_port_wrap {
+            .quotation_from_wrap,.quotation_to_wrap {
+                padding: 6px 15px;
+            }
+            .swap_btn_wrap{
+                margin: auto 5px;
+                width: 30px;
+                height: 30px;
+                position: static;
+            }
+
+            .common_dropdwon_btn_wrap .location_img {
+                width: 20px;
+            }
+            .location_wrap .icon {
+                width: 28px;
+                height: 28px;
+                flex: 0 0 28px;
+                @include borderRadius(100%);
+                background: $primary_1;
+            }
+            @media only screen and (max-width: 767px){
+                .quotation_to_wrap{
+                    border-top: 0;
+                }
+                .swap_btn_wrap{
+                    position: absolute;
+                    right: 0;
+                    left: auto;
+                }
+            }
+        }
+
+        .location_wrap {
+            .con {
+                .form-label {
+                    margin: 0px;
+                }
+
+                .form-select__control {
+                    .form-select__value-container {
+
+                        .form-select__placeholder,
+                        .form-select__single-value {
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+        }
+        .prof_wrap {
+            padding: 9px 15px;
+        }
+        .calendar_field_wrap {
+            position: relative;
+            padding: 0;
+            min-height: 38px;
+            .con {
+                .form-label {
+                    top: 10px;
+                    left: 50px;
+                }
+                .flatpickr-input {
+                    padding: 31px 7px 9px 50px;
+                }
+            }
+        }
+
+        .container_combine_drop_wrap{
+            .cargo_type_tabs{
+                gap: 5px;
+                button{
+                    padding: 5px 10px;
+                    flex: 1 1 auto;
+                }
+            }
+            .inner_field_wrap {
+                .prof_wrap {
+                    padding: 0 16px;
+                    @include borderRadius(8px);
+                }
+            }
+        }
+    }
+    .location_img {
+        width: 25px;
+    } 
+    
+    .air_cargo_date, .ocean_cargo_date{
+        display: none !important;
+        &.active{
+            display: block !important;
+        }
+    }
+}
+
+.customer_rate_wrapper{
+    h5{
+        @include font($font-weight-semibold,16px,normal,$neutral_8);
+    }
+}
+
+// -------------------------

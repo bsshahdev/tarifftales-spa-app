@@ -1,0 +1,48 @@
+@mixin font($fontWeight: null, $fontSize: null, $lineHeight: null, $color: null) {
+    font-weight: $fontWeight;
+    font-size: $fontSize;
+    line-height: $lineHeight;
+    color: $color;
+}
+
+@mixin borderRadius($property) {
+    -webkit-border-radius: $property;
+    -moz-border-radius: $property;
+    -ms-border-radius: $property;
+    -o-border-radius: $property;
+    border-radius: $property;
+}
+
+@mixin Sticky {
+    position: sticky;
+    top: 0;
+    left: 0; 
+    z-index: 99;
+}
+
+@mixin button {
+    padding: 9px 12px;
+    @include font($font-weight-medium, 14px, normal, $primary_1);
+    border-radius: 8px;
+    background: $primary_7;
+    box-shadow: 0px -1px 0px 0px rgba(0, 0, 0, 0.20) inset, 0px 1px 0px 0px rgba(0, 0, 0, 0.08);
+
+    &:hover {
+        background: $primary_8;
+    }
+
+    &:focus {
+        background: $primary_9;
+    }
+
+    &:disabled {
+        background: $neutral_1;
+        color: $neutral_4;
+    }
+}
+
+@mixin appearance {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: textfield;
+}
