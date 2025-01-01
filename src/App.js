@@ -4,7 +4,6 @@ import React from "react";
 import { Routes, Route } from "react-router-dom";
 import { connect } from "react-redux";
 
-// Import Routes all
 import { userRoutes, authRoutes } from "./routes/allRoutes";
 
 // Import all middleware
